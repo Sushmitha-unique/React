@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+
+
+function Hello(){
+    let a=10
+    let b={
+        color:"yellow",
+        textAlign:"center"
+    }
+    let c="{}"
+    return <div className="hello">
+        <h1 style={{color:"red",textAlign:"right"}}>Welcome to react Sushmitha</h1>  
+        <p>This is react course,{a}</p>
+        <h3 style={b} >How are you ?</h3>
+        <p>{c}</p>
     </div>
-  );
 }
-
-export default App;
